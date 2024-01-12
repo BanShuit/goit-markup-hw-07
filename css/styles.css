@@ -1252,3 +1252,20 @@ color: var(--white-background);
     fill: var(--white-background);
     margin-left:16px;
  }
+
+
+ /* ================================================= MOBILE 👇 ========================================= */
+ @media screen and (max-width: 767px) {}
+
+ /* ================================================= TABLET 👇 ========================================= */
+ @media screen and (min-width: 768px) {}
+
+ /* ================================================= NOT DESKTOP 👇 ========================================= */
+ @media screen and (max-width: 1157px) {
+     .icon-features {
+         <- jak można ukryć ikonki w 2gi sekcji display: none;
+     }
+ }
+
+ /* ================================================= DESKTOP 👇 ========================================= */
+ @media screen and (min-width: 1158px) {}

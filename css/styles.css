@@ -1254,10 +1254,9 @@ color: var(--white-background);
  }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (max-width: 767px) {
+@media screen (min-width: 320px) and (max-width: 428px){ 
     
 }
-
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
 

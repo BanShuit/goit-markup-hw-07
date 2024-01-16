@@ -386,6 +386,7 @@ ul ol {
 }
 
 .container {
+    width: 100%;
     max-width: 1158px;
     margin: 0 auto;
     align-items: center;
@@ -1254,18 +1255,14 @@ color: var(--white-background);
  }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen (min-width: 320px) and (max-width: 428px){ 
-    
+@media screen (min-width: 480px) {
+
 }
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
-
-}
-
-/* ================================================= NOT DESKTOP 👇 ========================================= */
-@media screen and (max-width: 1157px) {
-
 }
 
 /* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1158px) {}
+@media screen and (min-width: 1158px) {
+
+}

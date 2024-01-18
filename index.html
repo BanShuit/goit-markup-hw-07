@@ -22,13 +22,6 @@
 <body>
     <header class="border">
         <div class="container menu-header">
-            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </button>
             <nav class="menu-header-nav menu-header-padding">
                 <a class="logo link" href="./index.html">Web<span class="studio-logo" >Studio</span></a>
                 <ul class="list">
@@ -45,6 +38,74 @@
                 </ul>
             </address>
             </div>
+            <div class="mobile_menu_logo_top">
+                <a class="logo link" href="./index.html">Web<span class="studio-logo">Studio</span></a>
+                <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+                <div class="js-menu-container">
+                    <div class="mobile_menu_close">
+                        <button class="menu-toggle js-close-menu">
+                            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav class="menu-header-mobile menu-header-padding">
+                        <ul class="list list_mobile">
+                            <li class="first-menu-item"><a class="nav link underline " href="./index.html">Studio</a></li>
+                            <li><a class="nav link underline" href="./portfolio.html">Portfolio</a></li>
+                            <li><a class="nav link underline" href="">Contacts</a></li>
+                                </ul>
+                    <address class="contacts">
+                        <ul class="list list_mobile">
+                            <li ><a class="contacts-top link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li ><a class="contacts-top link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                    </nav>
+                    <div class="div-icones">
+                        <p class="footer-social">Social media</p>
+                        <ul class="icons-media-footer">
+                            <li class="icons-media-item">
+                                <a class="footer-svg link" href="">
+                                    <svg class="foterros" width="24" height="24">
+                                        <use class="social" href="./images/icons.svg#icon-instagram-2" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icons-media-item">
+                                <a class="footer-svg link" href="">
+                                    <svg class="foterros" width="24" height="24">
+                                        <use class="social" href="./images/icons.svg#icon-twitter-1" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icons-media-item">
+                                <a class="footer-svg link" href="">
+                                    <svg class="foterros" width="24" height="24">
+                                        <use class="social" href="./images/icons.svg#icon-facebook-1" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="icons-media-item">
+                                <a class="footer-svg link" href="">
+                                    <svg class="foterros" width="24" height="24">
+                                        <use class="social" href="./images/icons.svg#icon-linkedin-1" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
         </div>
     </header>
     <main>

@@ -25,6 +25,7 @@ padding-right: 15px;*/
     display: flex;
     align-items: center;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
 }
 
 /*.menu-header-padding {
@@ -66,9 +67,9 @@ padding-right: 15px;*/
     text-transform: uppercase;
     color: #4d5ae5;
     font-style: normal;
-    margin-right: 76px;
     display: inline-block;
     margin-left: 0px;
+    margin-top:18px;
 }
 .first-menu-item  {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -357,7 +358,6 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     gap: 40px;
 }
 
@@ -390,7 +390,6 @@ ul ol {
     max-width: 1158px;
     margin: 0 auto;
     align-items: center;
-
 
 }
 
@@ -432,8 +431,6 @@ ul ol {
 }
 
 .border {
-    border: 1px solid #e7e9fc;
-    border-bottom: 1px solid #e7e9fc;
     display: flex;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -781,7 +778,6 @@ p {
 }
 
 .div-icones {
-    margin-right: 120px;
     gap: 120px;
     align-items: baseline;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1253,16 +1249,123 @@ color: var(--white-background);
     fill: var(--white-background);
     margin-left:16px;
  }
+ .menu-header-nav,
+ .list-contact {
+     display: none;
+ }
+
+ 
+ .mobile_menu_logo_top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+.mobile_menu_logo_top button {
+    background-color: transparent;
+}
+.js-menu-container{
+    display: none;
+}
+.js-menu-container.is-open {
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color: var(--white-background);
+flex-flow: column nowrap;
+
+}
+.menu-header-mobile .list_mobile .link {
+
+}
+
+html , body {
+    width: 100%;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen (min-width: 480px) {
+@media  (min-width: 480px) {
 
 }
-/* ================================================= TABLET 👇 ========================================= */
-@media screen and (min-width: 768px) {
+/* ================================================= TABLET 👇 Start ========================================= */
+@media  (min-width: 768px) {
+.border {
+        border: 1px solid #e7e9fc;
+        border-bottom: 1px solid #e7e9fc;
+        display: flex;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
+
+    .menu-header-nav,
+    .list-contact {
+        display: flex;
+    }
+.mobile_menu_logo_top {
+    display: none;
+}
+.logo{
+     margin-right: 76px;
+        margin-top: 0;
+}
+ul {
+    display: flex;
+}
+.div-icones {
+    margin-right: 120px;
+    gap: 120px;
+    align-items: baseline;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1158px) {
+
+}
+
+/* ================================================= DESKTOP 👇 Start ========================================= */
+@media  (min-width: 1158px) {
+.container {
+        width: 100%;
+        max-width: 1158px;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+.border {
+    border: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.menu-header-nav,
+.list-contact {
+    display: flex;
+}
+.mobile_menu_logo_top {
+    display: none;
+}
+.logo {
+    margin-right: 76px;
+        margin-top: 0;
+}
+ul {
+    display: flex;
+}
+.div-icones {
+    margin-right: 120px;
+    gap: 120px;
+    align-items: baseline;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 }

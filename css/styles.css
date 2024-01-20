@@ -1326,12 +1326,12 @@ body {
     justify-content: flex-end;
 }
 @media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .box {
         background-image: url('people-office1@2x.jpg');
     }
-}
 
 @media (max-width: 479px) {
 

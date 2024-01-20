@@ -1330,8 +1330,10 @@ body {
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .box {
-        background-image: url('people-office1@2x.pgn');
-    }
+            background-image: url('people-office1@2x.jpg');
+        }
+} 
+    
 
 @media (max-width: 479px) {
 

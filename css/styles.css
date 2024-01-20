@@ -493,8 +493,11 @@ img {
 
 .styles-section-two {
     display: flex;
-    gap: 24px;
+    gap: 74px;
     flex-wrap: wrap;
+    margin-top: 96px;
+    margin-bottom: 96px;
+
 }
 
 .list-style {
@@ -1523,9 +1526,7 @@ ul {
     align-items: center;
 }
 
-.selection-two-padding {
-    padding: 120px;
-}
+
 
 .punctuality-heading {
     font-weight: 500;

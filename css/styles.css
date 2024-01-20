@@ -102,11 +102,12 @@ s.list {
 
 .list-two-sec-five {
     display: flex;
-    gap: 24px;
-    justify-content: space-evenly;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
               color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px;
+    justify-content: center;
 }
 
 
@@ -441,7 +442,6 @@ ul ol {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 332px;
     white-space: nowrap;
     padding: 24px 0;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -742,6 +742,7 @@ p {
     align-items: baseline;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 72px;
 }
 
 .size-icon {
@@ -779,7 +780,6 @@ p {
 }
 
 .div-margin {
-margin-bottom: 72px;
 }
 
 .div-icones {
@@ -1244,7 +1244,7 @@ color: var(--white-background);
  }
 
  .form-input{
-    width: 264px;
+    width: 320px;
     height: 40px;
     border: 1px solid var(--white-background);
     background-color: transparent;
@@ -1363,7 +1363,6 @@ body {
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: var(--white-background);
-            justify-content: flex-start;
             display: flex;
         }
 
@@ -1392,6 +1391,17 @@ body {
     .list-contact {
         display: flex;
     }
+
+.list-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    white-space: nowrap;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .mobile_menu_logo_top {
     display: none;
 }
@@ -1509,6 +1519,28 @@ ul {
     width: calc((100% - 48px) / 2);
     display: flex;
     justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--white-background);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-background);
 }
 
 }
@@ -1719,5 +1751,21 @@ ul {
 .imagese {
     width: calc((100% - 48px) / 3);
 }
+
+.form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--white-background);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-background);
+}
+
+
 
 }

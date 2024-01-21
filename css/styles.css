@@ -1403,6 +1403,7 @@ body {
     flex-direction: column;
     white-space: nowrap;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 16px;
 }
 
 
@@ -1441,7 +1442,6 @@ ul {
     color: #4d5ae5;
     font-style: normal;
     margin-left: 0px;
-    margin-top: 18px;
     display: flex;
     justify-content: flex-start;
 }
@@ -1491,6 +1491,7 @@ ul {
     gap: 24px;
     flex-wrap: wrap;
     margin-top: 96px;
+    justify-content: center;
 }
 
 .sec-for-ul-styl {
@@ -1770,6 +1771,16 @@ ul {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--white-background);
+}
+
+.paragraph-footer {
+    color: var(--cloud-color);
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    justify-content: center;
+    max-width: 264px;
+    height: 72px;
+    margin-right: -74px;
 }
 
 

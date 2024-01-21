@@ -67,7 +67,7 @@ padding-right: 15px;*/
     text-transform: uppercase;
     color: #4d5ae5;
     font-style: normal;
-    margin-left: 0px;
+    margin-left: 16px;
     margin-top:18px;
     display: flex;
     justify-content: center;
@@ -352,7 +352,6 @@ ul.list li button {
 
 ul {
     list-style: none;
-    gap: 40px;
 }
 
 ul ol {
@@ -441,9 +440,7 @@ ul ol {
 .list-contact {
     display: flex;
     align-items: center;
-    gap: 40px;
     white-space: nowrap;
-    padding: 24px 0;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -490,6 +487,10 @@ img {
 
 .head-one-style {
 
+}
+.gap-to-top{
+    gap:40px;
+    
 }
 
 
@@ -1282,6 +1283,7 @@ color: var(--white-background);
 display: flex;
 position: fixed;
 top: 0;
+bottom: 0;
 left: 0;
 right: 0;
 background-color: var(--white-background);
@@ -1397,9 +1399,8 @@ body {
 
 .list-contact {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 40px;
+    flex-direction: column;
     white-space: nowrap;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1449,7 +1450,6 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 40px;
 }
 .nav:hover {
     color: #404BBF;
@@ -1568,12 +1568,16 @@ ul {
 .list-contact {
     display: flex;
 }
+.list-contact{
+    display: flex;
+    flex-direction: inherit;
+}
 .mobile_menu_logo_top {
     display: none;
 }
 .logo {
     margin-right: 76px;
-        margin-top: 0;
+    margin-top: 0;
 }
 ul {
     display: flex;
@@ -1739,7 +1743,7 @@ ul {
     justify-content: flex-start;
 }
 .logo-footer {
-    margin-bottom: 17px;
+
 }
 
 .button-style {
@@ -1767,7 +1771,6 @@ ul {
     border-radius: 4px;
     color: var(--white-background);
 }
-
 
 
 }
